@@ -11,10 +11,10 @@ while True:
     guess = int(input('>'))
 
 
-    if (guess > rand_number):
+    if guess > rand_number:
         print('Guess is too high.')
         num_guesses += 1
-    elif(guess < rand_number):
+    elif guess < rand_number:
         print('Guess is too low')
         num_guesses += 1
     else:
