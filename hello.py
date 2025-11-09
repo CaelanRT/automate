@@ -8,9 +8,8 @@ print('It is good to meet you, ' + my_name)
 print('The length of your name is:')
 print(len(my_name))
 
-flag = 1
 
-while flag  == 1:
+while True:
     print('What is your age?')
 
     my_age_string = input('>')
@@ -21,6 +20,6 @@ while flag  == 1:
             print('Invalid age - enter an age above 0')
         else:
             print('You will be ' + str(my_age + 1) + ' in a year.')
-            flag = 0
+            break
     else:
         print('Invalid age - enter a number')
