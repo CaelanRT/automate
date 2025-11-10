@@ -15,10 +15,5 @@ def listConcat(list):
         
     return new_string
 
-    
-
-    
-
-
 spam = ['apples', 'bananas', 'tofu', 'cats']
 print(listConcat(spam))
