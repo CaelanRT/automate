@@ -15,8 +15,6 @@ def printTable(data):
             if len(data[i][j]) > colsMax[i]:
                 colsMax[i] = len(data[i][j])
 
-    
-    
     index = 0
 
     while index < len(data[0]):
@@ -27,9 +25,4 @@ def printTable(data):
 
         index += 1
 
-
-
-
-
-        
 printTable(tableData)
